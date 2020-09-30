@@ -1,0 +1,86 @@
+body{
+	width:700px;
+	height:750px;
+	border:dotted 2px black;
+	margin: 0 auto;
+}
+main{
+	width:700px;
+	height:750px;
+	margin: 0 auto;
+	float:center;
+	background-color: #e5e3e6;
+}
+form{
+	font-family: Arial;
+	width:650px;
+	height:750px;
+	margin: 0 auto;
+	float:center;
+	background-color: #e5e3e6;
+}
+textarea{
+	background-color: #ebddce;
+}
+input{
+	background-color: #ebddce;
+}
+input[type="image"] {
+	background-color: #ebddce;
+	padding: 10px;
+}
+select{
+	background-color: #ebddce;
+	margin-bottom:20px;
+	margin-top: 20px;
+	width: 200px;
+}
+label [type="labels"]{
+	font-color: #3f2152;
+	font-weight: bold;
+	color:#4b0082;
+}
+input[type="button"] {
+	background-color: #9b30ff;
+	width: 200px;
+	padding: 5px;
+	margin-bottom:10px;
+	color:white;
+}
+
+input[type="reset"] {
+	background-color: #9b30ff;
+	width: 200px;
+	padding: 5px;
+	margin-bottom:10px;
+	color:white;
+}
+input[type="text"] {
+	background: #f1ffff;
+	width: 300px;
+	padding: 7px;
+	margin-bottom:10px;
+}
+option {
+	margin-bottom:10px;
+	text-align: center;
+}
+input[type="radio"] {
+	margin-bottom:20px;
+	margin-top: 20px;
+	font-size: 10px;
+}
+input[type="nazmi"] {
+	background-color: #4b0082;
+	border:dotted 3px #ff00ff;
+	border-radius: 20px;
+	width: 200px;
+	text-align: center;
+	padding: 7px;
+	color:white;
+}
+span{
+	color:#4b0082;
+	font-weight: bold;
+	font-size: 18px;
+}

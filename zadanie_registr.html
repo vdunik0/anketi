@@ -8,46 +8,50 @@
 <body>
 <main>
 <form>
-	<label class="headerr">Subscription registration</label>
+	<label class="headerr">РЕГИСТРАЦИЯ ПОДПИСЧИКА</label>
 	<br>
-	<label>Как вас зовут?</label>
-	<input type="" name="">
+	<label><span>Как вас зовут?</span></label>
+	<input type="name">
 	<br>
-	<label>Страна проживания?</label>
-	<input type="" name="">
+	<label><span>Страна проживания?</span></label>
+	<input type="country">
 	<br>
-	<label>Ваш адресс электронной почты:</label>
-	<input type="" name="">
+	<br>
+	<label>Ваш адресс электронной <br>почты:</label>
+	<input type="email">
+	<br>
 	<br>
 	<label>Ваш пол</label>
-	<input type="radio" name="choiceradio">
-	<input type="radio" name="choiceradio">
+	<input type="radio" name="choiceradio"><label>Женщина</label>
+	<input type="radio" name="choiceradio"><label>Мужчина</label>
 	<br>
 	<label>Укажите ваш возраст</label>
-		<input value="18" type="number" name="quantity" id="quntity" min="18" max="100">
+		<input value="18" type="number" min="18" max="100">
+	<br>
 	<br>
 	<label>Ваш уровень владения компьютером</label>
 	<br>
-	<input type="radio" name="choiceradio">
-	<input type="radio" name="choiceradio">
-	<input type="radio" name="choiceradio">
-	<input type="radio" name="choiceradio">
-	<br>
-	<label>Откуда о нас узнали</label>
+	<input type="radio" name="choiceradio"><label>Начальный</label><br>
+	<input type="radio" name="choiceradio"><label>Средний</label><br>
+	<input type="radio" name="choiceradio"><label>Профессиональный</label><br>
+	<input type="radio" name="choiceradio"><label>Не владею</label><br>
+	<label><span>Откуда о нас узнали</span></label>
 	<select>
 		<option value="1">-</option>
-		<option value="2"></option>
-		<option value="3"></option>
-		<option value="4"></option>
-		<option value="5"></option>
+		<option value="2">Интернет</option>
+		<option value="3">Печатные издания</option>
+		<option value="4">Посоветовали знакомые</option>
+		<option value="5">Телевидение</option>
 	</select>
 	<br>
-	<label>Дополнительная информация</label>
+	<label><span>Дополнительная информация</span></label>
 	<br>
-	<textarea name="massage" rows="7" cols="55"></textarea>
+	<textarea name="massage" rows="10" cols="58"></textarea>
 	<br>
-	<label>Дата подписки</label>
-	<input type="text" name="" value="dd/mm/yyyy">
+	<br>
+	<label class=""><span>Дата подписки</span></label>
+	<input type="dates" value="mm/dd/yyyy">
+	<br>
 	<br>
 	<input type="button" name="start" value="Подписаться">
 	<input type="reset" value="Очистить">
